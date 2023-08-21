@@ -1,16 +1,34 @@
 // app global css in SCSS form
+
 *{
+
   font-family: 'LXGW WenKai Lite';
+
 }
+
 .q-card--dark{
+
   background-color: #292828!important;
+
 }
+
 .body--dark{
-  *{
+
+
+*{
     color: #fff!important;
-  }
 }
+
+}
+
 .q-field__native span{
+
   font-family: 'Montserrat-Regular';
+
   font-size: 1.4em;
+
+}
+*
+{
+  transition: background-color 0.5s ease-in-out;
 }

@@ -13,6 +13,7 @@
   "dependencies": {
     "@quasar/extras": "^1.0.0",
     "axios": "^1.2.1",
+    "dotenv": "^16.3.1",
     "lightgallery": "^2.7.1",
     "pinia": "^2.0.11",
     "quasar": "^2.6.0",
@@ -27,6 +28,7 @@
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0",
     "autoprefixer": "^10.4.2",
+    "cos-js-sdk-v5": "^1.4.20",
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-vue": "^9.0.0",

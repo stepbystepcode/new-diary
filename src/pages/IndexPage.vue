@@ -1,5 +1,5 @@
 <template>
-  <q-page class="row q-pt-xl items-start justify-evenly">
+  <q-page class="row q-pt-xl content-start items-start justify-evenly">
     <q-card
       v-for="(article, index) in lists"
       :key="index"
@@ -30,11 +30,11 @@
             <a
               v-for="(img, i) in imgList[index]"
               :key="i"
-              :data-src="`https://img.gejiba.com/images/${img}`"
+              :data-src="img"
             >
               <img
                 class="list-image q-mr-sm"
-                :src="`https://img.gejiba.com/images/${img}`"
+                :src="img"
               />
             </a>
           </lightgallery>
@@ -156,18 +156,15 @@ const moments = (index:number, type:string) => {
 }
 
 .body--light .q-page {
-  transition: background-color .5s;
   background-color: #fafafa;
 }
 .body--dark .q-page {
-  transition: background-color .5s;
   background-color: #121212;
 }
 .card {
   min-width: 90vw;
   border-radius: 8px;
   box-shadow: 0 2px 4px 2px rgb(0 0 0/7%);
-  transition: background-color .5s;
 }
 
 </style>

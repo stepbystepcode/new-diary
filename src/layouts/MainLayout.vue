@@ -37,6 +37,5 @@ header {
   font-size: 18px;
   z-index: 1000;
   color: #333;
-  transition: background-color .5s;
 }
 </style>
