@@ -2,5 +2,11 @@
   "routes": [
     { "handle": "filesystem" },
     { "src": "/.*", "dest": "/index.html" }
+  ],
+  "rewrites": [
+    {
+      "source": "/public/:path*",
+      "destination": "/public/:path*"
+    }
   ]
 }
